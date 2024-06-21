@@ -12,7 +12,10 @@
         $qry = "USE courierdb";
         $run = mysqli_query($dbcon, $qry);
         if (!$run){
+            echo "bye";
             echo "error entering db";
+            // gaand
+            echo "akshit";
         } // else {
             // echo "success";
         // }
